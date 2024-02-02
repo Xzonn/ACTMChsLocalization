@@ -1,6 +1,6 @@
 # 《Another Code 两种记忆》汉化
 
-[![Convert csv to json](https://github.com/Xzonn/ACTMChsLocalization/actions/workflows/build.yml/badge.svg)](https://github.com/Xzonn/ACTMChsLocalization/actions/workflows/build.yml) [![CC-BY-NC-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+[![CC-BY-NC-SA 4.0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
 
 ## 基本说明
 本项目是对《Another Code 两种记忆》（<span lang="ja">アナザーコード 2つの記憶</span>，异色代码 双重记忆）的简体中文的本地化。
