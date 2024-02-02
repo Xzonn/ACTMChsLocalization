@@ -831,7 +831,7 @@
     "id": "overlay_0034.0042",
     "pos": 46000,
     "length": 6403,
-    "new_length": 6383,
+    "new_length": 6371,
     "parts": [
       {
         "text": "%v(011)%n(P3802)%i(P3802)"
@@ -918,10 +918,7 @@
   {
     "id": "overlay_0034.0045",
     "pos": 52444,
-    "new_pos": 52372,
-    "overlay_pos": 1076,
-    "length": 19,
-    "new_length": 31
+    "length": 19
   },
   {
     "id": "overlay_0034.0046",
@@ -992,10 +989,7 @@
   {
     "id": "overlay_0034.0056",
     "pos": 53064,
-    "new_pos": 52384,
-    "length": 15,
-    "new_length": 19,
-    "overlay_pos": 53204
+    "length": 15
   },
   {
     "id": "overlay_0034.0057",
@@ -1025,7 +1019,10 @@
   {
     "id": "overlay_0034.0062",
     "pos": 53180,
-    "length": 19
+    "new_pos": 52372,
+    "length": 19,
+    "new_length": 23,
+    "overlay_pos": 53212
   },
   {
     "id": "overlay_0034.0063",

@@ -127,13 +127,7 @@
   {
     "id": "overlay_0032.0022",
     "pos": 30496,
-    "new_pos": 98544,
-    "overlay_pos": [
-      55688,
-      55708
-    ],
-    "length": 11,
-    "new_length": 15
+    "length": 11
   },
   {
     "id": "overlay_0032.0023",
