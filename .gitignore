@@ -1,0 +1,17 @@
+.vscode/
+maintenance/
+original_files/
+patched_files/
+temp_files/
+out/
+__pycache__/
+original_files_url.txt
+
+tools
+
+*.bat
+*.exe
+*.inc
+*.nds
+*.zip
+pyrightconfig.json

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "overlay_0029.0000",
+    "pos": 2176,
+    "length": 3,
+    "equals": "overlay_0010.0004"
+  },
+  {
+    "id": "overlay_0029.0001",
+    "pos": 2180,
+    "length": 3,
+    "equals": "overlay_0006.0004"
+  },
+  {
+    "id": "overlay_0029.0002",
+    "pos": 2184,
+    "length": 3,
+    "equals": "overlay_0005.0003"
+  },
+  {
+    "id": "overlay_0029.0003",
+    "pos": 2188,
+    "length": 7,
+    "equals": "overlay_0010.0008"
+  },
+  {
+    "id": "overlay_0029.0004",
+    "pos": 2244,
+    "length": 43,
+    "parts": [
+      {
+        "text": "%v(009)"
+      },
+      {
+        "id": "overlay_0010.0021.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0029.0005",
+    "pos": 2288,
+    "length": 43,
+    "parts": [
+      {
+        "text": "%v(008)"
+      },
+      {
+        "id": "overlay_0013.0011.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0029.0006",
+    "pos": 2376,
+    "length": 51,
+    "parts": [
+      {
+        "text": "%v(003)"
+      },
+      {
+        "id": "overlay_0012.0025.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0029.0007",
+    "pos": 2428,
+    "length": 51,
+    "parts": [
+      {
+        "text": "%v(010)"
+      },
+      {
+        "id": "overlay_0029.0007.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0029.0008",
+    "pos": 2480,
+    "length": 55,
+    "parts": [
+      {
+        "text": "%v(002)"
+      },
+      {
+        "id": "overlay_0029.0008.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0029.0009",
+    "pos": 2536,
+    "length": 115,
+    "parts": [
+      {
+        "text": "%v(001)%i(P3104)"
+      },
+      {
+        "id": "overlay_0029.0009.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0029.0010",
+    "pos": 2652,
+    "length": 121,
+    "parts": [
+      {
+        "text": "%v(000)%i(P3103)"
+      },
+      {
+        "id": "overlay_0029.0010.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  }
+]

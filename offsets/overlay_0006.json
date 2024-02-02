@@ -1,0 +1,328 @@
+[
+  {
+    "id": "overlay_0006.0000",
+    "pos": 2784,
+    "length": 3,
+    "equals": "overlay_0004.0002"
+  },
+  {
+    "id": "overlay_0006.0001",
+    "pos": 2788,
+    "length": 3,
+    "equals": "overlay_0004.0003"
+  },
+  {
+    "id": "overlay_0006.0002",
+    "pos": 2792,
+    "length": 3
+  },
+  {
+    "id": "overlay_0006.0003",
+    "pos": 2796,
+    "length": 3,
+    "equals": "overlay_0005.0004"
+  },
+  {
+    "id": "overlay_0006.0004",
+    "pos": 2800,
+    "length": 3
+  },
+  {
+    "id": "overlay_0006.0005",
+    "pos": 2804,
+    "length": 7
+  },
+  {
+    "id": "overlay_0006.0006",
+    "pos": 2812,
+    "length": 7
+  },
+  {
+    "id": "overlay_0006.0007",
+    "pos": 2820,
+    "length": 7,
+    "equals": "overlay_0005.0006"
+  },
+  {
+    "id": "overlay_0006.0008",
+    "pos": 2828,
+    "length": 7
+  },
+  {
+    "id": "overlay_0006.0009",
+    "pos": 2836,
+    "length": 11
+  },
+  {
+    "id": "overlay_0006.0010",
+    "pos": 2848,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(009)"
+      },
+      {
+        "id": "overlay_0006.0010.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0011",
+    "pos": 2896,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(014)"
+      },
+      {
+        "id": "overlay_0006.0011.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0012",
+    "pos": 2944,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(005)"
+      },
+      {
+        "id": "overlay_0006.0012.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0013",
+    "pos": 2992,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(008)"
+      },
+      {
+        "id": "overlay_0006.0013.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0014",
+    "pos": 3040,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(003)"
+      },
+      {
+        "id": "overlay_0006.0014.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0015",
+    "pos": 3088,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(015)"
+      },
+      {
+        "id": "overlay_0006.0015.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0016",
+    "pos": 3136,
+    "length": 51,
+    "parts": [
+      {
+        "text": "%v(010)"
+      },
+      {
+        "id": "overlay_0006.0016.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0017",
+    "pos": 3188,
+    "length": 51,
+    "parts": [
+      {
+        "text": "%v(007)"
+      },
+      {
+        "id": "overlay_0006.0017.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0018",
+    "pos": 3240,
+    "length": 51,
+    "parts": [
+      {
+        "text": "%v(004)"
+      },
+      {
+        "id": "overlay_0006.0018.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0019",
+    "pos": 3292,
+    "length": 55,
+    "parts": [
+      {
+        "text": "%v(012)"
+      },
+      {
+        "id": "overlay_0006.0019.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0020",
+    "pos": 3348,
+    "length": 59,
+    "parts": [
+      {
+        "text": "%v(011)"
+      },
+      {
+        "id": "overlay_0006.0020.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0021",
+    "pos": 3408,
+    "length": 59,
+    "parts": [
+      {
+        "text": "%v(013)"
+      },
+      {
+        "id": "overlay_0006.0021.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0022",
+    "pos": 3468,
+    "length": 63,
+    "parts": [
+      {
+        "text": "%v(016)"
+      },
+      {
+        "id": "overlay_0006.0022.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0023",
+    "pos": 3532,
+    "length": 67,
+    "parts": [
+      {
+        "text": "%v(006)"
+      },
+      {
+        "id": "overlay_0006.0023.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0024",
+    "pos": 3668,
+    "length": 83,
+    "parts": [
+      {
+        "text": "%v(001)"
+      },
+      {
+        "id": "overlay_0006.0024.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0025",
+    "pos": 3752,
+    "length": 91,
+    "parts": [
+      {
+        "text": "%v(000)"
+      },
+      {
+        "id": "overlay_0006.0025.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0006.0026",
+    "pos": 3844,
+    "length": 161,
+    "parts": [
+      {
+        "text": "%v(002)%i(P0401)"
+      },
+      {
+        "id": "overlay_0006.0026.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  }
+]

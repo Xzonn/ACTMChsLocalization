@@ -1,0 +1,795 @@
+[
+  {
+    "id": "overlay_0008.0000",
+    "pos": 8064,
+    "length": 3
+  },
+  {
+    "id": "overlay_0008.0001",
+    "pos": 8068,
+    "length": 3,
+    "equals": "overlay_0004.0003"
+  },
+  {
+    "id": "overlay_0008.0002",
+    "pos": 8072,
+    "length": 7,
+    "equals": "overlay_0005.0006"
+  },
+  {
+    "id": "overlay_0008.0003",
+    "pos": 8080,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0004",
+    "pos": 8088,
+    "length": 7,
+    "equals": "overlay_0004.0008"
+  },
+  {
+    "id": "overlay_0008.0005",
+    "pos": 8096,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0006",
+    "pos": 8104,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0007",
+    "pos": 8112,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0008",
+    "pos": 8120,
+    "length": 7,
+    "equals": "overlay_0006.0006"
+  },
+  {
+    "id": "overlay_0008.0009",
+    "pos": 8128,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0010",
+    "pos": 8136,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0011",
+    "pos": 8144,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0012",
+    "pos": 8152,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0013",
+    "pos": 8160,
+    "length": 7,
+    "equals": "arm9.0009"
+  },
+  {
+    "id": "overlay_0008.0014",
+    "pos": 8168,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0015",
+    "pos": 8176,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0016",
+    "pos": 8184,
+    "length": 7
+  },
+  {
+    "id": "overlay_0008.0017",
+    "pos": 8192,
+    "length": 11
+  },
+  {
+    "id": "overlay_0008.0018",
+    "pos": 8216,
+    "length": 11
+  },
+  {
+    "id": "overlay_0008.0019",
+    "pos": 8228,
+    "length": 15
+  },
+  {
+    "id": "overlay_0008.0020",
+    "pos": 8244,
+    "length": 43,
+    "parts": [
+      {
+        "text": "%v(030)"
+      },
+      {
+        "id": "overlay_0008.0020.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0021",
+    "pos": 8288,
+    "length": 43,
+    "parts": [
+      {
+        "text": "%v(037)"
+      },
+      {
+        "id": "overlay_0008.0021.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0022",
+    "pos": 8332,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(033)"
+      },
+      {
+        "id": "overlay_0008.0022.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0023",
+    "pos": 8380,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(031)"
+      },
+      {
+        "id": "overlay_0008.0023.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0024",
+    "pos": 8428,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(034)"
+      },
+      {
+        "id": "overlay_0008.0024.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0025",
+    "pos": 8524,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(024)"
+      },
+      {
+        "id": "overlay_0006.0012.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0026",
+    "pos": 8572,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(044)"
+      },
+      {
+        "id": "overlay_0008.0026.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0027",
+    "pos": 8620,
+    "length": 47,
+    "parts": [
+      {
+        "text": "%v(036)"
+      },
+      {
+        "id": "overlay_0008.0027.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0028",
+    "pos": 8668,
+    "length": 51,
+    "parts": [
+      {
+        "text": "%v(025)"
+      },
+      {
+        "id": "overlay_0005.0016.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0029",
+    "pos": 8720,
+    "length": 51,
+    "parts": [
+      {
+        "text": "%v(038)"
+      },
+      {
+        "id": "overlay_0008.0029.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0030",
+    "pos": 8772,
+    "length": 51,
+    "parts": [
+      {
+        "text": "%v(041)"
+      },
+      {
+        "id": "overlay_0008.0030.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0031",
+    "pos": 8824,
+    "length": 55,
+    "parts": [
+      {
+        "text": "%v(022)"
+      },
+      {
+        "id": "overlay_0008.0031.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0032",
+    "pos": 8880,
+    "length": 55,
+    "parts": [
+      {
+        "text": "%v(029)"
+      },
+      {
+        "id": "overlay_0008.0032.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0033",
+    "pos": 8936,
+    "length": 55,
+    "parts": [
+      {
+        "text": "%v(021)%i(P0600)"
+      },
+      {
+        "id": "overlay_0004.0028.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0034",
+    "pos": 8992,
+    "length": 55,
+    "parts": [
+      {
+        "text": "%v(042)"
+      },
+      {
+        "id": "overlay_0008.0034.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0035",
+    "pos": 9048,
+    "length": 55,
+    "parts": [
+      {
+        "text": "%v(035)"
+      },
+      {
+        "id": "overlay_0008.0035.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0036",
+    "pos": 9104,
+    "length": 55,
+    "parts": [
+      {
+        "text": "%v(028)"
+      },
+      {
+        "id": "overlay_0008.0036.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0037",
+    "pos": 9160,
+    "length": 55,
+    "parts": [
+      {
+        "text": "%v(032)"
+      },
+      {
+        "id": "overlay_0008.0037.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0038",
+    "pos": 9216,
+    "length": 59,
+    "parts": [
+      {
+        "text": "%v(023)"
+      },
+      {
+        "id": "overlay_0008.0038.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0039",
+    "pos": 9276,
+    "length": 59,
+    "parts": [
+      {
+        "text": "%v(026)"
+      },
+      {
+        "id": "overlay_0008.0039.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0040",
+    "pos": 9336,
+    "length": 59,
+    "parts": [
+      {
+        "text": "%v(027)"
+      },
+      {
+        "id": "overlay_0008.0040.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0041",
+    "pos": 9396,
+    "length": 59,
+    "parts": [
+      {
+        "text": "%v(043)"
+      },
+      {
+        "id": "overlay_0008.0041.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0042",
+    "pos": 9456,
+    "length": 59,
+    "parts": [
+      {
+        "text": "%v(010)"
+      },
+      {
+        "id": "overlay_0008.0042.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0043",
+    "pos": 9516,
+    "length": 59,
+    "parts": [
+      {
+        "text": "%v(039)"
+      },
+      {
+        "id": "overlay_0008.0043.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0044",
+    "pos": 9576,
+    "length": 63,
+    "parts": [
+      {
+        "text": "%v(040)"
+      },
+      {
+        "id": "overlay_0008.0044.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0045",
+    "pos": 9640,
+    "length": 63,
+    "parts": [
+      {
+        "text": "%v(004)"
+      },
+      {
+        "id": "overlay_0008.0045.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0046",
+    "pos": 9704,
+    "length": 63,
+    "parts": [
+      {
+        "text": "%v(017)%i(P0604)"
+      },
+      {
+        "id": "overlay_0008.0046.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0047",
+    "pos": 9768,
+    "length": 75,
+    "parts": [
+      {
+        "text": "%v(001)%i(P0605)"
+      },
+      {
+        "id": "overlay_0008.0047.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0048",
+    "pos": 9844,
+    "length": 75,
+    "parts": [
+      {
+        "text": "%v(007)%i(P0606)"
+      },
+      {
+        "id": "overlay_0008.0048.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0049",
+    "pos": 9920,
+    "length": 75,
+    "parts": [
+      {
+        "text": "%v(003)%i(P0605)"
+      },
+      {
+        "id": "overlay_0008.0049.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0050",
+    "pos": 9996,
+    "length": 95,
+    "parts": [
+      {
+        "text": "%v(018)%i(P0604)"
+      },
+      {
+        "id": "overlay_0008.0050.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0051",
+    "pos": 10092,
+    "length": 103,
+    "parts": [
+      {
+        "text": "%v(006)%i(P0603)"
+      },
+      {
+        "id": "overlay_0008.0051.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0052",
+    "pos": 10196,
+    "length": 123,
+    "parts": [
+      {
+        "text": "%v(014)%i(P0604)"
+      },
+      {
+        "id": "overlay_0008.0052.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0053",
+    "pos": 10320,
+    "length": 123,
+    "parts": [
+      {
+        "text": "%v(016)%i(P0600)"
+      },
+      {
+        "id": "overlay_0008.0053.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0054",
+    "pos": 10444,
+    "length": 147,
+    "parts": [
+      {
+        "text": "%v(011)%i(P0604)"
+      },
+      {
+        "id": "overlay_0008.0054.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0055",
+    "pos": 10592,
+    "length": 163,
+    "parts": [
+      {
+        "text": "%v(008)%i(P0606)"
+      },
+      {
+        "id": "overlay_0008.0055.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0056",
+    "pos": 10756,
+    "length": 171,
+    "parts": [
+      {
+        "text": "%v(019)%i(P0608)"
+      },
+      {
+        "id": "overlay_0008.0056.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0057",
+    "pos": 10928,
+    "length": 175,
+    "parts": [
+      {
+        "text": "%v(005)%i(P0603)"
+      },
+      {
+        "id": "overlay_0008.0057.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0058",
+    "pos": 11104,
+    "length": 179,
+    "parts": [
+      {
+        "text": "%v(002)%i(P0605)"
+      },
+      {
+        "id": "overlay_0008.0058.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0059",
+    "pos": 11464,
+    "length": 191,
+    "parts": [
+      {
+        "text": "%v(009)%i(P0606)"
+      },
+      {
+        "id": "overlay_0008.0059.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0060",
+    "pos": 11656,
+    "length": 191,
+    "parts": [
+      {
+        "text": "%v(000)%i(P0607)"
+      },
+      {
+        "id": "overlay_0008.0060.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0061",
+    "pos": 11848,
+    "length": 251,
+    "parts": [
+      {
+        "text": "%v(012)%i(P0604)"
+      },
+      {
+        "id": "overlay_0008.0061.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  },
+  {
+    "id": "overlay_0008.0062",
+    "pos": 12100,
+    "length": 365,
+    "parts": [
+      {
+        "text": "%v(015)%i(P0608)"
+      },
+      {
+        "id": "overlay_0008.0062.00"
+      },
+      {
+        "text": "%e"
+      }
+    ]
+  }
+]

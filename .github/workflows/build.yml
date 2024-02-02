@@ -1,0 +1,70 @@
+name: Build
+
+on:
+  push:
+    branches: 
+      - master
+    paths-ignore:
+      - '*.md'
+      - 'assets/'
+  workflow_dispatch:
+
+concurrency:
+  group: build
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 1
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - run: pip install Pillow
+      - run: echo "${{ secrets.ORIGINAL_FILES_URL }}" > original_files_url.txt
+      - name: Cache original files
+        id: cache-original-files
+        uses: actions/cache@v3
+        with:
+          path: original_files/
+          key: original-files-${{ hashFiles('original_files_url.txt') }}
+      - name: Cache dotnet script
+        id: cache-dotnet-script
+        uses: actions/cache@v3
+        with:
+          path: ~/.dotnet/tools/
+          key: original-files-dotnet-script
+      - name: Build patch
+        env:
+          ORIGINAL_FILES_URL: "${{ secrets.ORIGINAL_FILES_URL }}"
+          PYTHONUTF8: 1
+        run: |
+          Try
+          {
+            if (dotnet-script -h) {}
+          }
+          Catch
+          {
+            dotnet tool install -g dotnet-script
+          }
+          ./build.ps1
+      - name: Upload patch
+        uses: actions/upload-artifact@v3
+        with:
+          name: patch
+          path: |
+            out/patch/*
+      - name: GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          artifacts: "out/patch.xzp"
+          name: "《异色代码 两种记忆》汉化修正"
+          body: "[补丁应用工具](https://github.com/Xzonn/NitroPatcher/releases/latest/)"
+          prerelease: true
+          tag: publish
+          token: ${{ secrets.GITHUB_TOKEN }}
