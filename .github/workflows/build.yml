@@ -21,6 +21,10 @@ jobs:
         with:
           ref: master
           fetch-depth: 1
+      - name: Commit Information
+        id: commit
+        run: |
+          echo "commit_message=$(git log -1 --pretty=%s)" >> $env:GITHUB_OUTPUT
       - uses: actions/setup-python@v4
         with:
           python-version: "3.10"
@@ -63,8 +67,13 @@ jobs:
         with:
           allowUpdates: true
           artifacts: "out/patch.xzp"
-          name: "《异色代码 两种记忆》汉化修正"
-          body: "[补丁应用工具](https://github.com/Xzonn/NitroPatcher/releases/latest/)"
+          name: "${{ steps.commit.outputs.commit_message }}"
+          body: |
+            本页面下方的链接为自动构建并发布的开发版本补丁。**此版本补丁可能存在较多问题，仅供测试使用。**
+            
+            [原始 ROM](https://datomatic.no-intro.org/index.php?page=show_record&s=28&n=3810) 的 md5 校验码为：`5933d51fd3bfce700fea8a61e6783fc2`。
+            
+            请访问 [此处](https://github.com/Xzonn/NitroPatcher/releases/latest/) 获取补丁应用工具。
           prerelease: true
           tag: publish
           token: ${{ secrets.GITHUB_TOKEN }}
