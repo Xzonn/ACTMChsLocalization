@@ -15,3 +15,7 @@ tools
 *.nds
 *.zip
 pyrightconfig.json
+
+_site/
+Gemfile
+Gemfile.lock

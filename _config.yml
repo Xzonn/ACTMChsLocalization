@@ -1,0 +1,7 @@
+exclude:
+  - files/
+  - offsets/
+  - scripts/
+  - texts/
+  - "*.ps1"
+  - "*.txt"
