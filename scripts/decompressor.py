@@ -1,13 +1,5 @@
 import struct
 
-def Hibit(n: int):
-  n |= (n >> 1)
-  n |= (n >> 2)
-  n |= (n >> 4)
-  n |= (n >> 8)
-  n |= (n >> 16)
-  return n - (n >> 1)
-
 # Thanks to: Jason Harley
 # Reference: https://github.com/Jas2o/KyleHyde/blob/main/KyleHyde/Formats/HotelDusk/Decompress.cs
 def decompress(compressed: bytearray | bytes) -> bytearray:
@@ -33,26 +25,13 @@ def decompress(compressed: bytearray | bytes) -> bytearray:
         compressed_pos += 1
         uncompressed_pos += 1
       else:
-        offset, = struct.unpack("<H", compressed[compressed_pos : compressed_pos + 2])
-        len = 4 + compressed[compressed_pos + 2]
+        offset, len = struct.unpack("<HB", compressed[compressed_pos : compressed_pos + 3])
+        offset = (offset + 0xff + 4) & 0xffff
+        len += 4
         compressed_pos += 3
 
-        posHi = Hibit(uncompressed_pos - 0xff - 4)
-        offHi = Hibit(offset)
-        if uncompressed_pos < 0x10000:
-          signed = offset & 0xffff
-          if signed >= 0x8000:
-            signed -= 0x10000
-          if signed < 0 and signed + 0xff + 4 >= 0:
-            offset = signed
-        elif posHi >= 0x20000 and offHi < posHi:
-          if offset + posHi < uncompressed_pos:
-            offset += posHi
-          elif offset + 0x10000 < uncompressed_pos:
-            offset += 0x10000
-        elif posHi >= 0x10000 and offHi < posHi and offset + posHi < uncompressed_pos:
-          offset += posHi
-        offset += 0xff + 4
+        while offset < uncompressed_pos - 0x10000:
+          offset += 0x10000
 
         if offset < 0 or offset + len >= sizeun:
           for x in range(len):

@@ -4,6 +4,7 @@ from typing import Any, Generator
 from PIL import Image
 
 import decompressor
+import compressor
 
 os.makedirs("temp_files/pack/", exist_ok=True)
 
@@ -105,8 +106,11 @@ while True:
         decompressed[0x10 + i * 2 : 0x12 + i * 2] = struct.pack("<H", palette[i] | 0x8000)
 
       if has_header:
-        file_writer.write(b"\x12\x3d\xda\x00" + struct.pack("<I", len(decompressed)) + b"\xff\xff\xff\xff\x00\x00\x00\x00")
-      file_writer.write(decompressed)
+        compressed = compressor.compress(decompressed)
+        file_writer.write(compressed)
+        print(f"Compressed: {file_name}/{sub_name} ({len(compressed) - 0x10}/{len(decompressed)})")
+      else:
+        file_writer.write(decompressed)
       head_bin_writer.write(struct.pack("<I", len(decompressed) + 0x10))
 
     while file_writer.tell() % 0x20 != 0:
