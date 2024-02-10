@@ -25,20 +25,20 @@ jobs:
         id: commit
         run: |
           echo "commit_message=$(git log -1 --pretty=%s)" >> $env:GITHUB_OUTPUT
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
       - run: pip install Pillow
       - run: echo "${{ secrets.ORIGINAL_FILES_URL }}" > original_files_url.txt
       - name: Cache original files
         id: cache-original-files
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: original_files/
           key: original-files-${{ hashFiles('original_files_url.txt') }}
       - name: Cache dotnet script
         id: cache-dotnet-script
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.dotnet/tools/
           key: original-files-dotnet-script
@@ -57,7 +57,7 @@ jobs:
           }
           ./build.ps1
       - name: Upload patch
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: patch
           path: |
