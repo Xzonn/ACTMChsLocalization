@@ -1158,7 +1158,7 @@
     "id": "overlay_0025.0083",
     "pos": 27516,
     "length": 1415,
-    "new_length": 1399,
+    "new_length": 1379,
     "parts": [
       {
         "text": "%v(014)%t(90)%n(P2703)"
@@ -1242,7 +1242,7 @@
   {
     "id": "overlay_0025.0089",
     "pos": 29280,
-    "new_pos": 28916,
+    "new_pos": 28896,
     "length": 11,
     "new_length": 19,
     "overlay_pos": 8940,
