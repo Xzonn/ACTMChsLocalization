@@ -92,7 +92,7 @@ def import_texts() -> list[str]:
         print(f"Text not found: {id}")
         continue
 
-      new_text = list(text.replace("\n", "").replace("·", "・").replace("—", "ー"))
+      new_text = list(text.replace("\n", "").replace("·", "・").replace("—", "一"))
       for i, char in enumerate(new_text):
         if char not in chinese_to_cp932 and 0x4e00 <= ord(char) <= 0x9fff:
           print(f"Unknown char: {id} {char}")
